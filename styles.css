@@ -1,0 +1,174 @@
+body {background-color: #9dbbd5;}
+
+/*smartphone version: */
+
+.headline-a { 
+	text-align: center; 
+	font-size: 36px;
+	text-transform: capitalize;
+	color: #f5f5f5;
+	font-family: Arvo, Helvetica;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+.headline-b {
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #28455e;
+	font-family: Arvo, Helvetica; 
+	font-style: italic;
+	font-size: 45px; 
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.intro-container {
+	display: flex; 
+	justify-content: center; 
+ 	
+ }
+
+.intro-text { 
+ 	color: #f5f5f5; 
+ 	font-family: "Noto Serif", "Times New Roman"; 
+ 	font-size: 30px;
+ 	padding: 2%; 
+} 
+
+
+.grid-container { 
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-start; 
+	flex-basis: auto; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	align-items: center; 
+	}
+
+.grid-icon img { 
+	height: 200px; 
+	width: auto;
+}
+
+
+.grid-text p { 
+	font-family: "Noto Serif", "Times New Roman";
+	color: #f5f5f5;
+	font-size: 24px;
+	padding-left: 2%;
+	padding-right: 2%;
+ 
+ }
+
+.outro-container { 
+ 	display: flex; 
+	justify-content: center; 
+ 	padding: 2% 
+ }
+
+.outro-text { 
+ 	color: #f5f5f5; 
+ 	font-family: "Noto Serif", "Times New Roman"; 
+ 	font-size: 30px;
+ 	padding: 5%;
+} 
+
+.source-container {
+	display: flex;
+
+}
+
+.source-text { 
+	color: #f5f5f5; 
+ 	font-family: "Noto Serif", "Times New Roman"; 
+ 	font-size: 18px;
+ 	padding: 5%;
+}
+
+.footer { 
+	color: #898989; 
+ 	font-family: "Noto Serif", "Times New Roman"; 
+ 	font-size: 18px; 
+ 	text-align:  center;
+ }
+
+
+/*desktop and tablet version: */
+
+@media (min-width: 681px) {
+
+	.headline-a {
+		font-size: 50;
+
+	}
+
+	.headline-b {
+		font-size: 100px;
+
+	}
+
+	.grid-container { 
+		display: flex;
+		flex-direction: row; 
+		justify-content: flex-start; 
+		flex-basis: auto; 
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 2%;
+		align-items: center; 
+	}
+
+	.intro-text {
+		color: #f5f5f5; 
+		font-size: 24px;
+		padding: 5%;
+	}
+
+	.grid-icon img {
+		height: 200px;
+		width: auto;
+		padding: 2%;
+
+	} 
+
+	.grid-text p {
+		font-size: 18px;
+		padding: 2%;
+	}
+
+	.outro-container { 
+ 		display: flex; 
+		justify-content: center; 
+ 		padding: 2% 
+	}
+
+	.outro-text { 
+ 		color: #f5f5f5; 
+ 		font-family: "Noto Serif", "Times New Roman"; 
+ 		font-size: 24px;
+ 		padding: 5%;
+	} 
+
+	.source-text { 
+		color: #f5f5f5; 
+	 	font-family: "Noto Serif", "Times New Roman"; 
+	 	font-size: 12px;
+	 	padding: 5%;
+ 	}
+
+ 	.footer { 
+		color: #898989; 
+	 	font-family: "Noto Serif", "Times New Roman"; 
+	 	font-size: 12px; 
+	 	text-align:  center;
+	 }
+
+
+
+
+} 
+
+
